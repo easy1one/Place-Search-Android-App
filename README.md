@@ -7,16 +7,46 @@ The App that allows users to search for a place, look at information about it, s
    
    
 # 2. Skillsets
-: JavaScript, PHP, HTML, CSS, Bootstrap, Angular, Google App Engine(GAE)
-: Java, PHP, Android Studio
-   
+: Java, Android Studio
+: Google Maps API, Google Serch Nearby API, etc.
    
 # 3. Code relationships
-1)
+1) AndroidMenifest.xml
+
+2) build.gradle
+
+3) "places_search" folder: Java Code
+- (1) Adapeters : CustomListAdapterReview.java,
+						CustomPhotoAdapter.java, 
+						CustomRecyclerAdapter.java, 
+						CustomRecyclerAdapterFav.java, 
+						PlaceArrayAdapter.java, 
+						PlacesAutoAdapter.java, 
+						SectionsPageAdapter.java
+						
+- (2) main Fragments : DetailActivity.java, 
+							  FavFragment.java, 
+							  InfoFragment.java, 
+							  MainActivity.java, 
+							  MapFragment.java, 
+							  PhotosFragment.java, 
+							  ReviewsFragment.java, 
+							  SearchFragment.java, 
+							  SearchTable.java
+							  
+- (3) Object Classes : Yelp.java, 
+							  Reviews.java, 
+							  MyPlace.java
+
+4) "res" folder : XML code mostly 
+- (1) "drawable" for images
+- (2) "layout" for each pages
+- (3) "values" > "arrays.xml" for the values of spinners 
+
 
 
 # 4. Demo and Details
-- The application makes an AJAX call to the search.php script hosted on GAE
+- Runs on Nexus 5X API 27(Android 8.1.0, API 27) on Android Studio simulator
 - For the full video: https://youtu.be/hJdGYt2Aop0
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
