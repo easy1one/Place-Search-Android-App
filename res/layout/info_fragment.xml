@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <TableRow
+            android:id="@+id/row_address"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/label_address"
+                android:text="Address"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/val_address"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/label_phone"
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/val_phone"
+                android:linksClickable="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp" >
+
+            <TextView
+                android:id="@+id/label_price"
+                android:text="Price Level"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/val_price"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_rating"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp" >
+
+            <TextView
+                android:id="@+id/label_rating"
+                android:text="Rating"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RatingBar
+                    android:id="@+id/val_rating"
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_ggPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp" >
+
+            <TextView
+                android:id="@+id/label_ggPage"
+                android:text="Google Page"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/val_ggPage"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_webpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp">
+
+            <TextView
+                android:id="@+id/label_webpage"
+                android:text="Webpage"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/val_webpage"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
