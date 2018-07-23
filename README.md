@@ -16,33 +16,35 @@ The App that allows users to search for a place, look at information about it, s
 2) build.gradle
 
 3) "places_search" folder: Java Code
-- (1) Adapeters : 
---CustomListAdapterReview.java,
---CustomPhotoAdapter.java, 
---CustomRecyclerAdapter.java, 
---CustomRecyclerAdapterFav.java, 
---PlaceArrayAdapter.java, 
---PlacesAutoAdapter.java, 
---SectionsPageAdapter.java
+(1) Adapeters : 
+- CustomListAdapterReview.java,
+- CustomPhotoAdapter.java, 
+- CustomRecyclerAdapter.java, 
+- CustomRecyclerAdapterFav.java, 
+- PlaceArrayAdapter.java, 
+- PlacesAutoAdapter.java, 
+- SectionsPageAdapter.java
 						
-- (2) main Fragments : DetailActivity.java, 
-							  FavFragment.java, 
-							  InfoFragment.java, 
-							  MainActivity.java, 
-							  MapFragment.java, 
-							  PhotosFragment.java, 
-							  ReviewsFragment.java, 
-							  SearchFragment.java, 
-							  SearchTable.java
+(2) main Fragments : 
+- DetailActivity.java, 
+- FavFragment.java, 
+- InfoFragment.java, 
+- MainActivity.java, 
+- MapFragment.java, 
+- PhotosFragment.java, 
+- ReviewsFragment.java, 
+- SearchFragment.java, 
+- SearchTable.java
 							  
-- (3) Object Classes : Yelp.java, 
-							  Reviews.java, 
-							  MyPlace.java
+(3) Object Classes : 
+- Yelp.java, 
+- Reviews.java, 
+- MyPlace.java
 
 4) "res" folder : XML code mostly 
-- (1) "drawable" for images
-- (2) "layout" for each pages
-- (3) "values" > "arrays.xml" for the values of spinners 
+(1) "drawable" for images
+(2) "layout" for each pages
+(3) "values" > "arrays.xml" for the values of spinners 
 
 
 
