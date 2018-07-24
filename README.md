@@ -21,7 +21,6 @@ The App that allows users to search for a place, look at information about it, s
 - CustomRecyclerAdapterFav.java<br />
 - PlaceArrayAdapter.java<br />
 - PlacesAutoAdapter.java<br />
-<br />
 - <b>(2) main Fragments</b><br />
 - MainActivity.java<br />
 - SearchFragment.java<br />
@@ -32,12 +31,10 @@ The App that allows users to search for a place, look at information about it, s
 - PhotosFragment.java<br />
 - MapFragment.java<br />
 - ReviewsFragment.java<br />
-<br />
 - <b>(3) Object Classes</b><br />
 - MyPlace.java<br />
 - Reviews.java<br />
 - Yelp.java<br />
-<br />
 4) "res" folder : XML code mostly <br />
 - (1) "drawable" for images<br />
 - (2) "layout" for each fragment<br />
