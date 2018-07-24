@@ -53,23 +53,23 @@ The App that allows users to search for a place, look at information about it, s
 - For the full video: https://youtu.be/hJdGYt2Aop0
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
-- A user can modify the start location with autocomplete service
+- A user can modify the start location with autocomplete service <br />
 ![Imgur](https://i.imgur.com/PMDuKDd.gif)
 
-- Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
+- Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours <br />
 ![Imgur](https://i.imgur.com/q3p2zmr.gif)
 
 - Photos tab contains photos in 4 rows from the Google library
 - HTTP request by Picasso () for asynchronously loading data and images into ImageViews
 - Map tab contains Travel mode{Driving/Bicycling/Transit/Walking}
-- Google Play services for getting the current lication 
+- Google Play services for getting the current lication <br />
 ![Imgur](https://i.imgur.com/7YePqO9.gif)
 
 - Review tab displays the Google reviews and Yelp review of the place
-- For Yelp, "Business Match" and "Business Reviews" APIs
+- For Yelp, "Business Match" and "Business Reviews" APIs <br />
 ![Imgur](https://i.imgur.com/GVf3a72.gif)
 
-- Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
+- Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage <br />
 ![Imgur](https://i.imgur.com/FvdFzrt.gif)
 
 - Error handlings for searching, favorite list are applied
