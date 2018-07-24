@@ -13,7 +13,7 @@ The App that allows users to search for a place, look at information about it, s
 1) AndroidMenifest.xml
 2) build.gradle
 3) "places_search" folder: Java Code<br />
-- <b> (1) Adapeters </b><br />
+- <b>(1) Adapeters </b><br />
 - CustomRecyclerAdapter.java<br />
 - SectionsPageAdapter.java<br />
 - CustomPhotoAdapter.java<br />
@@ -21,7 +21,7 @@ The App that allows users to search for a place, look at information about it, s
 - CustomRecyclerAdapterFav.java<br />
 - PlaceArrayAdapter.java<br />
 - PlacesAutoAdapter.java<br />
-- (2) main Fragments<br />
+- <b>(2) main Fragments</b><br />
 - MainActivity.java<br />
 - SearchFragment.java<br />
 - SearchTable.java<br />
@@ -31,7 +31,7 @@ The App that allows users to search for a place, look at information about it, s
 - PhotosFragment.java<br />
 - MapFragment.java<br />
 - ReviewsFragment.java<br />
-- (3) Object Classes<br />
+- <b>(3) Object Classes</b><br />
 - MyPlace.java<br />
 - Reviews.java<br />
 - Yelp.java<br />
