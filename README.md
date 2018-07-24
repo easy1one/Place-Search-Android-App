@@ -12,9 +12,8 @@ The App that allows users to search for a place, look at information about it, s
 # 3. Code relationships
 1. AndroidMenifest.xml
 2. build.gradle
-3. "places_search" folder: Java Code
-<br />
-(1) Adapeters
+3. "places_search" folder: Java Code<br />
+(1) Adapeters<br />
 - CustomRecyclerAdapter.java<br />
 - SectionsPageAdapter.java<br />
 - CustomPhotoAdapter.java<br />
@@ -22,30 +21,25 @@ The App that allows users to search for a place, look at information about it, s
 - CustomRecyclerAdapterFav.java<br />
 - PlaceArrayAdapter.java<br />
 - PlacesAutoAdapter.java<br />
-
+(2) main Fragments<br />
+- MainActivity.java<br />
+- SearchFragment.java<br />
+- SearchTable.java<br />
+- FavFragment.java<br />
+- DetailActivity.java<br />
+- InfoFragment.java<br />
+- PhotosFragment.java<br />
+- MapFragment.java<br />
+- ReviewsFragment.java<br />
+(3) Object Classes<br />
+- MyPlace.java<br />
+- Reviews.java<br />
+- Yelp.java<br />
 <br />
-(2) main Fragments
-- MainActivity.java
-- SearchFragment.java
-- SearchTable.java
-- FavFragment.java
-- DetailActivity.java
-- InfoFragment.java
-- PhotosFragment.java
-- MapFragment.java
-- ReviewsFragment.java
-
-<br />					  
-(3) Object Classes
-- MyPlace.java
-- Reviews.java 
-- Yelp.java
-
-<br />
-4. "res" folder : XML code mostly 
-- (1) "drawable" for images
-- (2) "layout" for each fragment
-- (3) "values" > "arrays.xml" for the values of spinners 
+4. "res" folder : XML code mostly <br />
+(1) "drawable" for images<br />
+(2) "layout" for each fragment<br />
+(3) "values" > "arrays.xml" for the values of spinners <br />
 
 # 4. Demo and Details
 - Runs on Nexus 5X API 27(Android 8.1.0, API 27) on Android Studio simulator
