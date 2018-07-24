@@ -54,7 +54,7 @@ The App that allows users to search for a place, look at information about it, s
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 - A user can modify the start location with autocomplete service
-!
+![Imgur](https://i.imgur.com/PMDuKDd.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 !
