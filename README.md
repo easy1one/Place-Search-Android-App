@@ -68,10 +68,10 @@ The App that allows users to search for a place, look at information about it, s
 
 - Review tab displays the Google reviews and Yelp review of the place
 - For Yelp, "Business Match" and "Business Reviews" APIs
-!
+![Imgur](https://i.imgur.com/GVf3a72.gif)
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
-!
+![Imgur](https://i.imgur.com/FvdFzrt.gif)
 
 - Error handlings for searching, favorite list are applied
 - A dynamic progress bar is displayed while data is being fetched
