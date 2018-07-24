@@ -15,8 +15,8 @@ The App that allows users to search for a place, look at information about it, s
 3. "places_search" folder: Java Code
 <br />
 (1) Adapeters
-- CustomRecyclerAdapter.java
-- SectionsPageAdapter.java
+- CustomRecyclerAdapter.java__
+- SectionsPageAdapter.java__
 - CustomPhotoAdapter.java
 - CustomListAdapterReview.java
 - CustomRecyclerAdapterFav.java
