@@ -10,9 +10,9 @@ The App that allows users to search for a place, look at information about it, s
 : Google Maps API, Google Serch Nearby API, etc.
    
 # 3. Code relationships
-1. AndroidMenifest.xml
-2. build.gradle
-3. "places_search" folder: Java Code<br />
+1) AndroidMenifest.xml
+2) build.gradle
+3) "places_search" folder: Java Code<br />
 (1) Adapeters<br />
 - CustomRecyclerAdapter.java<br />
 - SectionsPageAdapter.java<br />
@@ -36,7 +36,7 @@ The App that allows users to search for a place, look at information about it, s
 - Reviews.java<br />
 - Yelp.java<br />
 <br />
-4. "res" folder : XML code mostly <br />
+4) "res" folder : XML code mostly <br />
 (1) "drawable" for images<br />
 (2) "layout" for each fragment<br />
 (3) "values" > "arrays.xml" for the values of spinners <br />
