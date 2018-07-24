@@ -4,19 +4,16 @@
 # 1. High Level Description
 : This is the Android App version of "Place-Search-Web". 
 The App that allows users to search for a place, look at information about it, save some as favorites and post on Twitter about the place. Once the user clicks on a button to serach for place details, the webpage should display several tabs which contain an info/ photos/ map/ route/ reviews respectively.
-   
-   
+
 # 2. Skillsets
 : Java, Android Studio
 : Google Maps API, Google Serch Nearby API, etc.
    
 # 3. Code relationships
 1) AndroidMenifest.xml
-
 2) build.gradle
-
 3) "places_search" folder: Java Code <br />
-_(1) Adapeters
+(1) Adapeters
 - CustomRecyclerAdapter.java
 - SectionsPageAdapter.java
 - CustomPhotoAdapter.java
@@ -24,8 +21,8 @@ _(1) Adapeters
 - CustomRecyclerAdapterFav.java
 - PlaceArrayAdapter.java
 - PlacesAutoAdapter.java
-			
-- (2) main Fragments
+<br />
+(2) main Fragments
 - MainActivity.java
 - SearchFragment.java
 - SearchTable.java
@@ -35,18 +32,16 @@ _(1) Adapeters
 - PhotosFragment.java
 - MapFragment.java
 - ReviewsFragment.java
-						  
-- (3) Object Classes : 
+<br />					  
+(3) Object Classes
 - MyPlace.java
 - Reviews.java 
 - Yelp.java
-
+<br />
 4) "res" folder : XML code mostly 
 - (1) "drawable" for images
 - (2) "layout" for each fragment
 - (3) "values" > "arrays.xml" for the values of spinners 
-
-
 
 # 4. Demo and Details
 - Runs on Nexus 5X API 27(Android 8.1.0, API 27) on Android Studio simulator
