@@ -57,14 +57,13 @@ The App that allows users to search for a place, look at information about it, s
 ![Imgur](https://i.imgur.com/PMDuKDd.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
-!
+![Imgur](https://i.imgur.com/q3p2zmr.gif)
 
 - Photos tab contains photos in 4 rows from the Google library
 - HTTP request by Picasso () for asynchronously loading data and images into ImageViews
-
 - Map tab contains Travel mode{Driving/Bicycling/Transit/Walking}
 - Google Play services for getting the current lication 
-!
+![Imgur](https://i.imgur.com/7YePqO9.gif)
 
 - Review tab displays the Google reviews and Yelp review of the place
 - For Yelp, "Business Match" and "Business Reviews" APIs
