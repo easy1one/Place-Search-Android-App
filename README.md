@@ -12,7 +12,8 @@ The App that allows users to search for a place, look at information about it, s
 # 3. Code relationships
 1. AndroidMenifest.xml
 2. build.gradle
-3. "places_search" folder: Java Code <br />
+3. "places_search" folder: Java Code
+<br />
 (1) Adapeters
 - CustomRecyclerAdapter.java
 - SectionsPageAdapter.java
