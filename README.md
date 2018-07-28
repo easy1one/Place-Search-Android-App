@@ -35,6 +35,7 @@ The App that allows users to search for a place, look at information about it, s
      - MyPlace.java<br />
      - Reviews.java<br />
      - Yelp.java<br />
+     <br />
 4) "res" folder : XML code mostly <br />
    - (1) "drawable" for images<br />
    - (2) "layout" for each fragment<br />
