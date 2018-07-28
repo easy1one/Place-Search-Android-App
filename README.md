@@ -14,8 +14,8 @@ The App that allows users to search for a place, look at information about it, s
 2) build.gradle
 3) "places_search" folder: Java Code<br />
    - __(1) Adapeters__<br />
-- CustomRecyclerAdapter.java<br />
-- SectionsPageAdapter.java<br />
+     * CustomRecyclerAdapter.java<br />
+     * SectionsPageAdapter.java<br />
 - CustomPhotoAdapter.java<br />
 - CustomListAdapterReview.java<br />
 - CustomRecyclerAdapterFav.java<br />
