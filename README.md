@@ -1,15 +1,15 @@
 # Place-Search-App(Android.ver)
 - Trevel-n-Entertainment Search Android App using Google Places API
 
-# 1. High Level Description
+## 1. High Level Description
 : This is the Android App version of "Place-Search-Web". 
 The App that allows users to search for a place, look at information about it, save some as favorites and post on Twitter about the place. Once the user clicks on a button to serach for place details, the webpage should display several tabs which contain an info/ photos/ map/ route/ reviews respectively.
 
-# 2. Skillsets
+## 2. Skillsets
 : Java, Android Studio
 : Google Maps API, Google Serch Nearby API, etc.
    
-# 3. Code relationships
+## 3. Code relationships
 1) __AndroidMenifest.xml__
 2) __build.gradle__
 3) __"places_search" folder__: Java Code<br />
@@ -41,7 +41,7 @@ The App that allows users to search for a place, look at information about it, s
    - (2) "layout" for each fragment<br />
    - (3) "values" > "arrays.xml" for the values of spinners <br />
 
-# 4. Demo and Details
+## 4. Demo and Details
 - Runs on Nexus 5X API 27(Android 8.1.0, API 27) on Android Studio simulator
 - For the full video: https://youtu.be/hJdGYt2Aop0
 
